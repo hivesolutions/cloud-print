@@ -9,7 +9,7 @@ class CloudPrintApp(appier.WebApp):
     def __init__(self):
         appier.WebApp.__init__(
             self,
-            name = "cloud print",
+            name = "cloud_print",
             parts = (
                 appier_extras.AdminPart,
             )
