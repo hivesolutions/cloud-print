@@ -4,5 +4,5 @@
 from . import node
 from . import printer
 
-from .node import *
-from .printer import *
+from .node import Node
+from .printer import Printer
