@@ -6,13 +6,14 @@ import appier_extras
 
 class CloudPrintApp(appier.WebApp):
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         appier.WebApp.__init__(
             self,
             name = "cloud_print",
             parts = (
                 appier_extras.AdminPart,
-            )
+            ),
+            *args, **kwargs
         )
 
 if __name__ == "__main__":
