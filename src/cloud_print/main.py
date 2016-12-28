@@ -19,3 +19,5 @@ class CloudPrintApp(appier.WebApp):
 if __name__ == "__main__":
     app = CloudPrintApp()
     app.serve()
+else:
+    __path__ = []
