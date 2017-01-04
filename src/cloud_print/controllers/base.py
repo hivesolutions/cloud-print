@@ -7,4 +7,4 @@ class BaseController(appier.Controller):
 
     @appier.route("/hello", "GET")
     def hello(self):
-        return "asdasd"
+        return "Hello World"
